@@ -297,7 +297,7 @@ PreProcessor.HeaderCount=1
 PreProcessor.PrototypeCount=4
 vm.last.preproc.file.0.file=MHC5883L.ino
 vm.last.preproc.file.0.offset=1
-vm.last.preproc.file.0.length=1330
+vm.last.preproc.file.0.length=1375
 vm.last.preproc.file.0.linecount=65
 vm.last.preproc.file.0.linestart=0
 vm.last.preproc.file.0.lineend=65
@@ -308,7 +308,7 @@ vm.build_use_temp=1
 runtime.vm.ide.platforms.path=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\fzhy4ker.spb\Micro Platforms
 build.variant.path=C:\Users\Jaap\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\standard
 archive_file=core.a
-extra.time.local=43960447
+extra.time.local=45309168
 tools.ctags.path={runtime.tools.ctags.path}
 tools.ctags.cmd.path={path}/ctags
 tools.ctags.pattern="{cmd.path}" -u --language-force=c++ -f - --c++-kinds=svpf --fields=KSTtzns --line-directives "{source_file}"

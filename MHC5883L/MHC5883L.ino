@@ -18,7 +18,7 @@ void setup()
 	Wire.begin();
 
 	compass = HMC5883L();
-	compass.SetScale(1.3);
+	compass.SetScale(2.5);	// configure gain (1.3 is miss een beetje teveel?)
 	compass.SetMeasurementMode(Measurement_Continuous);
 
 }
@@ -46,19 +46,19 @@ void loop()
 	float yDeg = yHeading * 180 / M_PI;
 	float zDeg = zHeading * 180 / M_PI;
 
-	Serial.print(xDeg);
+	/*Serial.print(xDeg);
 	Serial.print('\t');
 	Serial.print(yDeg);
 	Serial.print('\t');
 	Serial.print(zDeg);
-	Serial.print('\n');
+	Serial.print('\n');*/
 
-	//Serial.print(raw.XAxis);
-	//Serial.print(" ");
-	//Serial.print(raw.YAxis);
-	//Serial.print(" ");
-	//Serial.print(raw.ZAxis);
-	//Serial.print('\r');
+	Serial.print(raw.XAxis);
+	Serial.print('\t');
+	Serial.print(raw.YAxis);
+	Serial.print('\t');
+	Serial.print(raw.ZAxis);
+	Serial.print('\n');
 
 	delay(100);
 }
